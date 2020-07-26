@@ -1,0 +1,31 @@
+.Auth{
+    margin: 150px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 10px 10px 80px 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.H2{
+    color: rgb(224, 96, 96);;
+}
+
+.Panel{
+    display: inline-block;
+    background-color: #f32f2f;
+    color: white;
+    width: 100%;
+    text-align: left;
+    box-shadow:0px 0px 5px 5px #C9C9C9;
+    border-radius: 8px;
+    padding-left: 5px;
+}
+
+@media (min-width:600px){
+    .Auth{
+        width: 400px;
+    }
+}
